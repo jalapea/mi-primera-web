@@ -3,75 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Joseph Alape Ariza - Investigación en Ciencias Forenses</title>
+  <title>Joseph Alape Ariza - Portafolio Científico y Naturaleza</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background: #f4f4f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #004aad;
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    h2 {
-      color: #004aad;
-      border-bottom: 2px solid #004aad;
-      padding-bottom: 5px;
-    }
-    a {
-      color: #004aad;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #222;
-      color: #ccc;
-      margin-top: 50px;
-    }
+    body { font-family: 'Segoe UI', sans-serif; margin:0; background:#f4f4f9; color:#333; }
+    header, footer { background:#004aad; color:white; text-align:center; padding:20px; }
+    header h1 { margin:0; }
+    main { max-width:900px; margin:30px auto; padding:0 20px; }
+    section { margin-bottom:50px; }
+    h2 { color:#004aad; border-bottom:2px solid #004aad; padding-bottom:5px; }
+    ul { list-style:none; padding:0; }
+    li { margin-bottom:10px; }
+    a { color:#004aad; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .gallery { display:flex; flex-wrap:wrap; gap:10px; }
+    .gallery img { width:calc(50% - 10px); border-radius:8px; }
+    footer { font-size:0.9rem; }
   </style>
 </head>
 <body>
   <header>
     <h1>Joseph Alape Ariza</h1>
-    <p>Investigador en Ciencias Forenses y Genética</p>
+    <p>Perito Forense • Genética • Investigador</p>
   </header>
   <main>
+    <!-- Biografía -->
     <section>
-      <h2>Artículos Publicados</h2>
+      <h2>Biografía</h2>
+      <p>Joseph Alape Ariza es perito forense e investigador en genética forense, vinculado al Instituto Nacional de Medicina Legal y Ciencias Forenses de Colombia y al Departamento de Biología de la Universidad Nacional de Colombia :contentReference[oaicite:5]{index=5}. Su doctorado se centró en la identificación de mutaciones ligadas a canalopatías hereditarias, utilizando análisis exómico y técnicas de secuenciación de nueva generación (NGS) :contentReference[oaicite:6]{index=6}.</p>
+      <p>Ha participado como conferencista en eventos latinoamericanos, abordando temas como muerte súbita cardíaca y el uso de NGS en autopsias forenses :contentReference[oaicite:7]{index=7}.</p>
+    </section>
+
+    <!-- Galería de investigaciones -->
+    <section>
+      <h2>Investigaciones Destacadas</h2>
       <ul>
-        <li><a href="https://www.hilarispublisher.com/author/joseph-alape-ariza-36092" target="_blank" rel="noopener noreferrer">Investigación en Hilaris Publisher</a></li>
-        <li><a href="https://www.sciencedirect.com/science/article/pii/S2665910722000469" target="_blank" rel="noopener noreferrer">Análisis en ScienceDirect</a></li>
-        <li><a href="https://link.springer.com/chapter/10.1007/978-981-96-4585-5_13" target="_blank" rel="noopener noreferrer">Estudio en Springer: Análisis Molecular en Muerte Súbita</a></li>
+        <li><a href="https://repositorio.unal.edu.co/handle/unal/83953" target="_blank" rel="noopener noreferrer">Tesis Doctoral: Mutaciones en canalopatías hereditarias (2023)</a></li>
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S2665910722000469" target="_blank" rel="noopener noreferrer">Sequencing molecular markers in medicolegal autopsy (2022) - FSI Reports</a></li>
+        <li><a href="https://link.springer.com/chapter/10.1007/978-981-96-4585-5_13" target="_blank" rel="noopener noreferrer">Capítulo en Springer: Análisis molecular de muerte súbita</a></li>
+        <li><a href="https://www.hilarispublisher.com/author/joseph-alape-ariza-36092" target="_blank" rel="noopener noreferrer">Publicaciones en Hilaris Publisher</a></li>
       </ul>
     </section>
+
+    <!-- Galería de naturaleza -->
     <section>
-      <h2>Sobre Mí</h2>
-      <p>Soy Joseph Alape Ariza, investigador en ciencias forenses con especialización en genética. Mi trabajo se enfoca en el análisis molecular para la identificación y comprensión de causas de muerte súbita en Colombia.</p>
+      <h2>Galería de Naturaleza</h2>
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/123.jpg" alt="Lago y montañas">
+        <img src="https://images.pexels.com/photos/456.jpg" alt="Paisaje al atardecer">
+        <img src="https://images.pexels.com/photos/789.jpg" alt="Bosque con flores">
+        <img src="https://images.pexels.com/photos/321.jpg" alt="Reflejo en lago al amanecer">
+      </div>
     </section>
   </main>
   <footer>
-    &copy; 2025 Joseph Alape Ariza
+    &copy; 2025 Joseph Alape Ariza — <a href="mailto:joseph.alape@example.com" style="color:#ccc;">Contacto</a>
   </footer>
 </body>
 </html>
